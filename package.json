@@ -13,7 +13,7 @@
   ],
   "scripts": {
     "dev": "node scripts/dev.mjs",
-    "test:contrast": "tsx packages/shared/test/contrast.test.ts",
+    "test:contrast": "node packages/shared/test/contrast.test.mjs",
     "build": "npm run test:contrast && npm run build -w @milezero/shared && npm run build -w @milezero/web && npm run build -w @milezero/api",
     "start": "npm run start -w @milezero/api"
   }
