@@ -24,7 +24,12 @@ const here = path.dirname(fileURLToPath(import.meta.url));
 function tileOrigin(template: string | undefined): string | null {
   if (!template) return null;
   try {
-    return new URL(template.replace(/\{[a-z]\}/g, "x")).origin;
+    const origin = new URL(template.replace(/\{[a-z]\}/g, "a")).origin;
+    // For wildcard subdomains like https://*.basemaps.cartocdn.com
+    if (origin.includes("cartocdn.com")) {
+      return "https://*.basemaps.cartocdn.com";
+    }
+    return origin;
   } catch {
     return null;
   }

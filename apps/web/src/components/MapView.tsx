@@ -17,8 +17,8 @@ export function MapView({
   to,
   selectedGeometry,
   selectedMode,
-  tileUrlTemplate = "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
-  tileAttribution = '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+  tileUrlTemplate = "https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png",
+  tileAttribution = '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>',
   onMapClick,
 }: MapViewProps) {
   const containerRef = useRef<HTMLDivElement>(null);

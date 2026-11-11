@@ -5,6 +5,8 @@ import {
   reversePlace,
   planJourney,
   logTrip,
+  fetchConfig,
+  PublicConfig,
   Place,
 } from "../lib/api.js";
 import { MapView } from "../components/MapView.js";
@@ -14,6 +16,11 @@ import { usePageTitle } from "../lib/usePageTitle.js";
 export function Home() {
   usePageTitle("Journey Planner");
   const { user } = useAuth();
+  const [config, setConfig] = useState<PublicConfig | null>(null);
+
+  useEffect(() => {
+    fetchConfig().then(setConfig).catch(() => {});
+  }, []);
 
   const [fromQuery, setFromQuery] = useState("");
   const [toQuery, setToQuery] = useState("");
@@ -350,6 +357,8 @@ export function Home() {
             to={toPlace}
             selectedGeometry={selectedGeometry}
             selectedMode={selectedOption?.mode}
+            tileUrlTemplate={config?.tileUrlTemplate}
+            tileAttribution={config?.tileAttribution}
             onMapClick={handleMapClick}
           />
         </div>

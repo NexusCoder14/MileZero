@@ -11,10 +11,10 @@ const Env = z.object({
   SESSION_SECRET: z.string().min(32, "SESSION_SECRET must be at least 32 characters"),
   TILE_URL_TEMPLATE: z
     .string()
-    .default("https://tile.openstreetmap.org/{z}/{x}/{y}.png"),
+    .default("https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png"),
   TILE_ATTRIBUTION: z
     .string()
-    .default('&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'),
+    .default('&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>'),
   GEOCODER_URL: z.string().default("https://nominatim.openstreetmap.org"),
   ROUTING_ENGINE_URL: z
     .string()
