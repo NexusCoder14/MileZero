@@ -25,7 +25,9 @@ function tileOrigin(template: string | undefined): string | null {
   if (!template) return null;
   try {
     const origin = new URL(template.replace(/\{[a-z]\}/g, "a")).origin;
-    // For wildcard subdomains like https://*.basemaps.cartocdn.com
+    if (origin.includes("openstreetmap.fr")) {
+      return "https://*.tile.openstreetmap.fr";
+    }
     if (origin.includes("cartocdn.com")) {
       return "https://*.basemaps.cartocdn.com";
     }
