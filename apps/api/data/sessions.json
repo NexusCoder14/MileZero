@@ -1,0 +1,11 @@
+[
+  {
+    "id": "5b6924fd-d1eb-434d-8e9b-dbb22fc227d5",
+    "userId": "83d16109-00a7-4219-b3b3-e7bbd4fca7ce",
+    "tokenHash": "3420db1f76de9b6b27ba10d3539ee9f11fe71821a27163d2e76ce4c226b0c31d",
+    "csrfToken": "543f11ff962c92086b4b4fb765ddd0e312749da7398f8d68",
+    "createdAt": "2026-11-10T11:30:24.159Z",
+    "expiresAt": "2026-12-10T11:30:24.159Z",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36"
+  }
+]

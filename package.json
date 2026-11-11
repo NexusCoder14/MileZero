@@ -1,0 +1,20 @@
+{
+  "name": "milezero",
+  "version": "0.1.0",
+  "private": true,
+  "description": "MileZero: intelligent multimodal, low-carbon urban mobility platform (Simple Edition).",
+  "license": "UNLICENSED",
+  "engines": {
+    "node": ">=22"
+  },
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "node scripts/dev.mjs",
+    "test:contrast": "tsx packages/shared/test/contrast.test.ts",
+    "build": "npm run test:contrast && npm run build -w @milezero/shared && npm run build -w @milezero/web && npm run build -w @milezero/api",
+    "start": "npm run start -w @milezero/api"
+  }
+}

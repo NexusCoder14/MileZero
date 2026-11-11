@@ -1,0 +1,20 @@
+[
+  {
+    "id": "f08fabf7-4fab-4a3e-b6a4-475666b8118a",
+    "email": "kushmvin09@gmail.com",
+    "passwordHash": "dd15b6d3b0f3c5a083fe2cd11b9250a1:ad925f3ca762822e2164221010641aa54f78c595dcfc19f0ce9bf14db3a5aafb8ab83d398af3104405d8b325e135f129f018981195c30031de76ae1c186444fc",
+    "displayName": "Kush",
+    "role": "admin",
+    "createdAt": "2026-11-09T04:30:23.418Z",
+    "updatedAt": "2026-11-10T11:05:18.463Z"
+  },
+  {
+    "id": "83d16109-00a7-4219-b3b3-e7bbd4fca7ce",
+    "email": "kush@gmail.com",
+    "passwordHash": "bb29a28177b465e7e722d0c998f249ef:556092ee42cd2fed7a500a005c6f23178f5a3033778cd4043e4ecf78350dd7c36d755aca4912d373e779a30525202ccb87f6f187fdda91d6530804d8ec646d0d",
+    "displayName": "Kush",
+    "role": "user",
+    "createdAt": "2026-11-10T11:07:34.662Z",
+    "updatedAt": "2026-11-10T11:07:34.662Z"
+  }
+]

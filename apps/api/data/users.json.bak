@@ -1,0 +1,11 @@
+[
+  {
+    "id": "f08fabf7-4fab-4a3e-b6a4-475666b8118a",
+    "email": "kushmvin09@gmail.com",
+    "passwordHash": "dd15b6d3b0f3c5a083fe2cd11b9250a1:ad925f3ca762822e2164221010641aa54f78c595dcfc19f0ce9bf14db3a5aafb8ab83d398af3104405d8b325e135f129f018981195c30031de76ae1c186444fc",
+    "displayName": "Kush",
+    "role": "admin",
+    "createdAt": "2026-11-09T04:30:23.418Z",
+    "updatedAt": "2026-11-10T11:05:18.463Z"
+  }
+]

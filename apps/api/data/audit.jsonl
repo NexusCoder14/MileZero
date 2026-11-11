@@ -1,0 +1,8 @@
+{"at":"2026-11-09T04:30:23.505Z","action":"USER_REGISTERED","userId":"f08fabf7-4fab-4a3e-b6a4-475666b8118a","email":"kushmvin09@gmail.com","role":"admin"}
+{"at":"2026-11-10T11:04:29.912Z","action":"USER_LOGGED_IN","userId":"f08fabf7-4fab-4a3e-b6a4-475666b8118a"}
+{"at":"2026-11-10T11:05:18.475Z","action":"TEMPORARY_PASSWORD_SET","userId":"f08fabf7-4fab-4a3e-b6a4-475666b8118a","adminId":"f08fabf7-4fab-4a3e-b6a4-475666b8118a"}
+{"at":"2026-11-10T11:07:34.719Z","action":"USER_REGISTERED","userId":"83d16109-00a7-4219-b3b3-e7bbd4fca7ce","email":"kush@gmail.com","role":"user"}
+{"at":"2026-11-10T11:10:29.407Z","action":"USER_LOGGED_IN","userId":"83d16109-00a7-4219-b3b3-e7bbd4fca7ce"}
+{"at":"2026-11-10T11:30:24.171Z","action":"USER_LOGGED_IN","userId":"83d16109-00a7-4219-b3b3-e7bbd4fca7ce"}
+{"at":"2026-11-10T11:31:39.596Z","action":"TRIP_LOGGED","userId":"83d16109-00a7-4219-b3b3-e7bbd4fca7ce","tripId":"489bffae-7e73-43b6-9bb9-3ecafaa3a092","mode":"walk","co2SavedKg":1.89}
+{"at":"2026-11-10T11:31:45.553Z","action":"TRIP_LOGGED","userId":"83d16109-00a7-4219-b3b3-e7bbd4fca7ce","tripId":"c96a5616-be7f-49c8-bcc9-f070740e46d6","mode":"transit","co2SavedKg":1.782}

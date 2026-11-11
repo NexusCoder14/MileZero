@@ -1,0 +1,16 @@
+[
+  {
+    "id": "489bffae-7e73-43b6-9bb9-3ecafaa3a092",
+    "userId": "83d16109-00a7-4219-b3b3-e7bbd4fca7ce",
+    "loggedAt": "2026-11-10T11:31:39.591Z",
+    "fromName": "CSMT Station, Mumbai",
+    "toName": "Bandra Station, Mumbai",
+    "mode": "walk",
+    "distanceKm": 14.7,
+    "durationMinutes": 196.7,
+    "cost": 0,
+    "co2Kg": 0,
+    "co2SavedKg": 1.89,
+    "planToken": "eyJvcHRpb25JZCI6Im9wdC13YWxrIiwibW9kZSI6IndhbGsiLCJkaXN0YW5jZUttIjoxNC43LCJkdXJhdGlvbk1pbnV0ZXMiOjE5Ni43LCJjb3N0IjowLCJjbzJLZyI6MCwiY28yU2F2ZWRLZyI6MS44OSwiZnJvbU5hbWUiOiJDU01UIFN0YXRpb24sIE11bWJhaSIsInRvTmFtZSI6IkJhbmRyYSBTdGF0aW9uLCBNdW1iYWkiLCJleHBpcmVzQXQiOjE3OTQzOTY2OTI0NTl9.6cf6938ea973dd3e5ea0c22594a2078c3033470df848678fe06a721fb51004b6"
+  }
+]

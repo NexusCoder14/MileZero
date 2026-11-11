@@ -1,0 +1,112 @@
+{
+  "schema": 1,
+  "generatedAt": "2026-11-02",
+  "cities": {
+    "mumbai": {
+      "petrol": {
+        "perLitre": 111.21,
+        "asOf": "2026-11-01",
+        "source": { "title": "Business Today, petrol price in Greater Mumbai", "url": "https://www.businesstoday.in/fuel-price/petrol-price-in-greater-mumbai-today" },
+        "verified": true
+      },
+      "fares": {
+        "bus": [
+          {
+            "id": "best-ordinary",
+            "label": "BEST ordinary (non-AC)",
+            "role": "default",
+            "match": null,
+            "slabs": [[5, 10], [10, 15], [15, 20], [20, 30], [25, 35], [30, 40], [35, 45], [40, 50], [45, 55], [50, 60]],
+            "beyond": { "stepKm": 5, "stepFare": 5 },
+            "asOf": "2025-05-08",
+            "source": { "title": "Free Press Journal, BEST fares from 9 May 2025", "url": "https://www.freepressjournal.in/amp/mumbai/mumbai-news-best-doubles-minimum-bus-fares-from-may-9-non-ac-starts-at-10-ac-at-12-toll-and-pass-revisions-announced" },
+            "verified": true,
+            "note": "BEST was reported to be considering lower minimum fares in June 2025. No change was confirmed in the sources checked."
+          },
+          {
+            "id": "best-ac",
+            "label": "BEST AC",
+            "role": "alternative",
+            "alternativeTo": "best-ordinary",
+            "match": null,
+            "slabs": [[5, 12], [10, 20], [15, 30], [20, 35], [25, 40], [30, 45], [35, 50], [40, 55], [45, 60], [50, 65]],
+            "beyond": { "stepKm": 5, "stepFare": 5 },
+            "asOf": "2025-05-08",
+            "source": { "title": "Free Press Journal, BEST fares from 9 May 2025", "url": "https://www.freepressjournal.in/amp/mumbai/mumbai-news-best-doubles-minimum-bus-fares-from-may-9-non-ac-starts-at-10-ac-at-12-toll-and-pass-revisions-announced" },
+            "verified": true
+          }
+        ],
+        "metro": [
+          {
+            "id": "metro-one",
+            "label": "Metro Line 1 (Versova to Ghatkopar)",
+            "role": "default",
+            "match": "line 1|metro one|mmopl|versova|ghatkopar",
+            "slabs": [[2, 10], [5, 20], [8, 30], [null, 40]],
+            "asOf": "2020-01-10",
+            "source": { "title": "Free Press Journal, Mumbai metro fares", "url": "https://www.freepressjournal.in/topnews/mumbai-pocket-friendly-metro-fares" },
+            "verified": true,
+            "note": "This table was reported in January 2020 and may have been revised since."
+          },
+          {
+            "id": "mmrda-metro",
+            "label": "MMRDA metro lines",
+            "role": "default",
+            "match": null,
+            "slabs": [[3, 10], [12, 20], [18, 30], [24, 40], [30, 50], [36, 60], [42, 70], [null, 80]],
+            "asOf": "2020-01-10",
+            "source": { "title": "Free Press Journal, Mumbai metro fares", "url": "https://www.freepressjournal.in/topnews/mumbai-pocket-friendly-metro-fares" },
+            "verified": true,
+            "note": "Applied to every metro route that is not Line 1. Other lines, such as Line 3, may charge differently. The table was reported in January 2020."
+          }
+        ],
+        "train": []
+      }
+    },
+    "delhi": {
+      "petrol": {
+        "perLitre": 102.12,
+        "asOf": "2026-07-21",
+        "source": { "title": "HDFC Sky, petrol and diesel prices on 21 July 2026", "url": "https://hdfcsky.com/news/petrol-diesel-prices-today-july-21-2026-fuel-rates-delhi-mumbai-chennai-bengaluru-hyderabad-kolkata-noida" },
+        "verified": true
+      },
+      "fares": {}
+    },
+    "bengaluru": {
+      "petrol": {
+        "perLitre": 110.82,
+        "asOf": "2026-07-21",
+        "source": { "title": "HDFC Sky, petrol and diesel prices on 21 July 2026", "url": "https://hdfcsky.com/news/petrol-diesel-prices-today-july-21-2026-fuel-rates-delhi-mumbai-chennai-bengaluru-hyderabad-kolkata-noida" },
+        "verified": true
+      },
+      "fares": {}
+    },
+    "chennai": {
+      "petrol": {
+        "perLitre": 107.76,
+        "asOf": "2026-07-21",
+        "source": { "title": "HDFC Sky, petrol and diesel prices on 21 July 2026", "url": "https://hdfcsky.com/news/petrol-diesel-prices-today-july-21-2026-fuel-rates-delhi-mumbai-chennai-bengaluru-hyderabad-kolkata-noida" },
+        "verified": true
+      },
+      "fares": {}
+    },
+    "kolkata": {
+      "petrol": {
+        "perLitre": 113.51,
+        "asOf": "2026-07-21",
+        "source": { "title": "HDFC Sky, petrol and diesel prices on 21 July 2026", "url": "https://hdfcsky.com/news/petrol-diesel-prices-today-july-21-2026-fuel-rates-delhi-mumbai-chennai-bengaluru-hyderabad-kolkata-noida" },
+        "verified": true
+      },
+      "fares": {}
+    },
+    "hyderabad": {
+      "petrol": {
+        "perLitre": 115.69,
+        "asOf": "2026-07-21",
+        "source": { "title": "HDFC Sky, petrol and diesel prices on 21 July 2026", "url": "https://hdfcsky.com/news/petrol-diesel-prices-today-july-21-2026-fuel-rates-delhi-mumbai-chennai-bengaluru-hyderabad-kolkata-noida" },
+        "verified": true
+      },
+      "fares": {}
+    }
+  }
+}
